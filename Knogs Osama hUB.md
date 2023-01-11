@@ -23,7 +23,6 @@ game.StarterGui:SetCore("SendNotification",  {
 --
 local MapsTab = Window:NewTab("Maps")
 local FeScriptTap = Window:NewTab("FE SCRIPT")
-local CheemsWareTap = Window:NewTab("???")
 local originalscriptTap = Window:NewTab("normal script knogs")
 
 local Section1 = MapsTab:NewSection("maps")
@@ -435,24 +434,11 @@ Section2:NewButton("Pendulum Hubs", "Knogs Osama Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))();
 end)
 
-local Section3 = CheemsWareTap:NewSection("coming soon")
-
-
-
 local Section4 = originalscriptTap:NewSection("Knogs Osama Hub")
 
 Section4:NewButton("Knogs Osama Hub", "Knogs Osama Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thesshadow24124/Knogs-Osama-Hub/main/KOH%20V3.md"))()
 end)
 Section4:NewButton("Knogs Osama Hub v1", "Knogs Osama Hub v1", function()
-
-end)
-Section4:NewButton("Knogs Osama Hub v2", "Knogs Osama Hub v2", function()
-
-end)
-Section4:NewButton("Knogs Osama Hub v3", "Knogs Osama Hub v3", function()
-
-end)
-Section4:NewButton("Knogs Osama Hub v4", "Knogs Osama Hub v4", function()
 
 end)
