@@ -24,6 +24,7 @@ game.StarterGui:SetCore("SendNotification",  {
 local MapsTab = Window:NewTab("Maps")
 local FeScriptTap = Window:NewTab("FE SCRIPT")
 local originalscriptTap = Window:NewTab("normal script knogs")
+local comingTap = Window:NewTab("coming")
 
 local Section1 = MapsTab:NewSection("maps")
 
@@ -51,7 +52,7 @@ end)
 Section1:NewButton("arsenal no key", "no key", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
-Tab1Section:NewButton("Brooken Heven","Brooken Heven",function()
+Section1:NewButton("Brooken Heven","Brooken Heven",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 Section1:NewButton("muder mystery 2 no key", "no key", function()
@@ -410,7 +411,7 @@ Section1:NewButton("Combat Warriors 2 no key", "no key", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
 end)
 Section1:NewButton("tps football no key", "no key", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
+
 end)
 
 local Section2 = FeScriptTap:NewSection("Fe Script On Knogs Osama first open knogs osama")
@@ -423,4 +424,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))();
 end)
 Section2:NewButton("Pendulum Hubs", "Knogs Osama Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))();
+end)
+
+local Section3 = originalscriptTap:NewSection("Knogs Osama Hub and Version")
+
+Section3:NewButton("Knogs Osama Hub", "Knogs Osama Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+end)
+Section3:NewButton("Knogs Osama Hub ??", "Knogs Osama Hub ??", function()
+
 end)
