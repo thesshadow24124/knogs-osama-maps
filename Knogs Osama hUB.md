@@ -412,15 +412,6 @@ end)
 Section1:NewButton("tps football no key", "no key", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
 end)
-Section1:NewButton("coming soon", "coming soon", function()
-
-end)
-Section1:NewButton("coming soon", "coming soon", function()
-
-end)
-Section1:NewButton("coming soon", "coming soon", function()
-
-end)
 
 local Section2 = FeScriptTap:NewSection("Fe Script On Knogs Osama first open knogs osama")
 
