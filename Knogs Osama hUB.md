@@ -431,6 +431,3 @@ local Section3 = originalscriptTap:NewSection("Knogs Osama Hub and Version")
 Section3:NewButton("Knogs Osama Hub", "Knogs Osama Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 end)
-Section3:NewButton("Knogs Osama Hub ??", "Knogs Osama Hub ??", function()
-
-end)
