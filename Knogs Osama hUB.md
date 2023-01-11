@@ -433,12 +433,3 @@ end)
 Section2:NewButton("Pendulum Hubs", "Knogs Osama Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))();
 end)
-
-local Section4 = originalscriptTap:NewSection("Knogs Osama Hub")
-
-Section4:NewButton("Knogs Osama Hub", "Knogs Osama Hub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/thesshadow24124/Knogs-Osama-Hub/main/KOH%20V3.md"))()
-end)
-Section4:NewButton("Knogs Osama Hub v1", "Knogs Osama Hub v1", function()
-
-end)
